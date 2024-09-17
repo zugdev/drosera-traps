@@ -10,7 +10,7 @@ contract DeployLottery is Script {
 
         vm.startBroadcast(deployerPrivateKey);
 
-        new Lottery(address(0));
+        new Lottery(address(0xF0c14cE46bA2657A2982942F121F1484f2F03aEC));
 
         vm.stopBroadcast();
     }

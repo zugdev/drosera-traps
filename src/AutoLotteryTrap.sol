@@ -12,7 +12,7 @@ struct CollectOutput {
 contract AutoLotteryTrap is ITrap {
     // Deployed on Holesky
     Lottery private lottery =
-        Lottery(address(0));
+        Lottery(address(0xF0c14cE46bA2657A2982942F121F1484f2F03aEC));
 
     function collect() external view returns (bytes memory) {
         (,,uint256 endTime,uint256 totalAmount,) = lottery.currentRound(); 

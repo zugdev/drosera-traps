@@ -1,3 +1,8 @@
+## AutoLotterTrap.sol
+
+A trap for a lottery where each round last 10mins or bet volume reaches certain amount.
+
+This trap detects when a round is over and automates ending a round, which means paying out and starting the next one.
 
 ## [holesky]
 
